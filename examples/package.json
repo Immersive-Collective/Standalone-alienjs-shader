@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "servez .."
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "latest",
+    "rollup": "latest",
+    "servez": "latest"
+  }
+}
